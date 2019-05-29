@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		.payment1{background-image: url(payment2.png);}
+	</style>
+	<title>
+		payment
+	</title>
+</head>
+<body>
+		<fieldset>
+			<legend>
+				PAYMENT:
+			</legend>
+			<p class="payment1" style="height: 100px; width: 535px; "></p>
+			<br>
+			<form>
+				Your total is: <input type="text" name="amount" placeholder="$0.00" height="10px" width="40px">
+				<br><br>
+				<input type="radio" name="Credit" checked="Credit"> credit card
+				<input type="radio" name="Credit"> debit card
+				<br><br>
+				NAME ON CARD:
+				 <input type="text" name="name on card" placeholder="cardname" height="10px" width="40px">
+				 <br><br>
+				NUMBER ON CARD:
+				 <input type="text" name="card number" placeholder="card number" height="10px" width="40px">
+				 &nbsp;
+				 CVV:
+				  <input type="text" name="cvv" placeholder="cvv" height="10px" width="40px">
+				 &nbsp;
+				 EXP. DATE:
+				  <input type="text" name="exp date" placeholder="date" height="10px" width="40px">
+			</form>
+		</fieldset>
+		<br>
+		<input type="submit" name="continue next"  value="Submit" onclick="alert('SUCCESSFUL')" 
+		style="color: red;
+		 font-weight: bold; 
+		line-height: 100px;
+		height: 40px;
+		width: 150px;
+		text-align: center;
+		margin-left: 500px;" >
+</body>
+</html>
