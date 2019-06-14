@@ -2,18 +2,99 @@
 <html>
 <head>
 	<style type="text/css">
-		
-	</style>
+		</style>
 	<title>
 		ZOOFORM
 	</title>
 </head>
-<body>
-		<form>
-			<div style="text-transform: uppercase;text-align: center;line-height: 50px; text-decoration: underline; font-family: calibre; font-style: bold; height: 60px; width: 500px; margin: auto;">ZOO EVENT REGISTRATION</div>
+<body background="image4.jpg" 
+		style="opacity: 1;
+  		filter: alpha(opacity=100);">
+
+			<div style="text-align: center;
+			line-height: 50px; 
+			text-decoration: underline;
+			font-family: calibre; 
+			font-style: bold; height: 60px;
+			width: 600px; margin: auto;
+			color: white ">ZOO EVENT REGISTRATION
+		</div>
+			
 			<fieldset>
-				<legend></legend>
+				<legend style="margin: auto;
+				 color: white;">
+					PERSONAL INFO: 
+				</legend>
+			
+			<form>
+				<p style="color: white;">NAME:</p>
+			<input type="text" name="FIRSTNAME" placeholder="firstname" style="width: 250px; line-height: 30px">
+			
+			<input type="text" name="SURNAME" placeholder="surname" style="width: 240px; line-height: 30px;">
+			<br>
+
+			<p style="color: white">ADDRESS:</p>
+			<input type="text" name="line1" placeholder="address line 1" style="width: 500px; line-height: 30px;">
+			<br><br>
+			<input type="text" name="line2" placeholder="address line 2" style="width: 500px; line-height: 30px;">
+			<br><br>
+			<input type="text" name=" city" placeholder="city"; style="line-height: 30px;">&nbsp;&nbsp;
+			<input type="text" name="STATE" value="state" style="line-height: 30px;">&nbsp;&nbsp;
+			<input type="text" name="PINCODE" value="zipcode" style="line-height: 30px;">
+			<br><br>
+
+			<p style="color: white">EMAIL:</p>
+			<input type="EMAIL" name="EMAIL" style="width: 250px; line-height: 30px">&nbsp;&nbsp;
+			<input type="PHONENUMBER" name="EMAIL" value="phonenumber" style="width: 240px; line-height: 30px">
+
+			</form>
 			</fieldset>
-		</form>
-</body>
+
+			<fieldset>
+				<legend style="margin: auto;
+				 color: white;">
+					EVENTS: 
+				</legend>
+			<form>
+				<p style="color: white">Event-1</p>
+				<p style="color: white"><input type="radio" name="event1.1" checked="boo at the zoo $5"> boo at the zoo $5</p>
+				<p style="color: white"><input type="radio" name="event1.2"> Thanksgiving food drive $0</p>
+				<p style="color: white"><input type="radio" name="event1.3">Lights of christmas $5</p>
+
+				<p style="color: white"> Event-2</p><p style="color: white"> Donations</p>
+				<p style="color: white"><input type="checkbox" name="event2.1" checked="Clothes $50"> Food $30 </p>
+				<p style="color: white"><input type="checkbox" name="event2.2"> Clothes $50</p>
+				<p style="color: white"><input type="checkbox" name="event2.3"> Education $50 </p>
+				<br>
+			</form>
+		</fieldset>
+
+		<fieldset>
+			<legend style="margin: auto;
+			 color: white;">
+			 SELECT NO. OF PERSONS.
+			</legend>
+			<p style="color: white; line-height: 40px;"> <b><i>There additional fee entry for the zoo is $ 2.0 except for the events selected.</i></b></p>
+			<select name="No. of persons" size="4" style="margin-left: 100px; width: 100px;">
+				<option value="1"> 1</option>
+				<option value="2">2</option>
+				<option value="3"> 3</option>
+				<option value="4"> 4</option>
+				<option value="5"> 5</option>
+				<option value="6"> 6</option>
+				<option value="7"> 7</option>
+				<option value="8"> 8</option>
+				<option value="9"> 9</option>
+				<option value="10"> 10</option>
+			</select>
+		</fieldset>
+		<a href="file:///E:/Sublime%20Text%203/after%203rd/FORM/FORM2.html"><input type="submit" name="continue next"  value="Save and next>>" onclick="alert('NEXT PAGE:PAYMENT')" 
+		style="color: red;
+		 font-weight: bold; 
+		line-height: 100px;
+		height: 40px;
+		width: 150px;
+		text-align: center;
+		margin-left: 500px;" ></a>
+	</body>
 </html>
